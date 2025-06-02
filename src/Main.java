@@ -14,6 +14,8 @@ public class Main {
         System.out.println("Значение переменной myFloat с типом float равно " + myFloat);
         System.out.println("Значение переменной myDouble с типом double равно " + myDouble);
 
+        // task 2
+
         double valueDouble = 27.12;
         long  bigLong = 987678965549L;
         float valueFloat = 2.786f;
@@ -29,5 +31,18 @@ public class Main {
         System.out.println("Значение переменной negativeByte с типом byte равно " + negativeInt);
         System.out.println("Значение переменной anotherShort с типом short равно " + anotherShort);
         System.out.println("Значение переменной smallByte с типом byte равно " + smallByte);
+
+        // task 3
+
+        int lydmilaPavlovna = 23;
+        int annaServeevna = 27;
+        int ekaterinaAndreevna = 30;
+        int totalPaper = 480;
+
+        int totalStudents = lydmilaPavlovna + annaServeevna + ekaterinaAndreevna;
+        int paperPerStudent = totalPaper / totalStudents;
+
+        System.out.println("На каждого ученика рассчитано " + paperPerStudent + " листов бумаги");
+
     }
 }
