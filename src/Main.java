@@ -68,7 +68,24 @@ public class Main {
         int totalWhite = numberOfClasses * whitePerClass;
         int totalBrown = numberOfClasses * brownPerClass;
 
-        System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски");
+        System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + totalWhite +
+                " банок белой краски и " + totalBrown + " банок коричневой краски");
+
+        //task 6
+
+        int bananasCount = 5;
+        int bananaWeight = 80;
+        int milkVolume = 200;
+        int milkWeightPer100ml = 105;
+        int iceCreamCount = 2;
+        int iceCreamWeight = 100;
+        int eggsCount = 4;
+        int eggWeight = 70;
+        int totalWeightGrams = bananasCount * bananaWeight + (milkVolume / 100) * milkWeightPer100ml + iceCreamCount * iceCreamWeight + eggsCount * eggWeight;
+        double totalWeightKg = totalWeightGrams / 1000.0;
+
+        System.out.println("Вес спортзавтрака в граммах: " + totalWeightGrams);
+        System.out.println("Вес спортзавтрака в килограммах: " + totalWeightKg);
 
     }
 }
