@@ -44,5 +44,19 @@ public class Main {
 
         System.out.println("На каждого ученика рассчитано " + paperPerStudent + " листов бумаги");
 
+        // task 4
+
+        int bottlesPer2Minutes = 16;
+        int bottlesPerMinute = bottlesPer2Minutes / 2;
+        int bottlesIn20Minutes = bottlesPerMinute * 20;
+        int bottlesPerDay = bottlesPerMinute * 60 * 24;
+        int bottlesIn3Days = bottlesPerDay * 3;
+        int bottlesPerMonth = bottlesPerDay * 30;
+
+        System.out.println("За 20 минут машина произвела " + bottlesIn20Minutes + " штук бутылок");
+        System.out.println("За сутки машина произвела " + bottlesPerDay + " штук бутылок");
+        System.out.println("За 3 дня машина произвела " + bottlesIn3Days + " штук бутылок");
+        System.out.println("За 1 месяц машина произвела " + bottlesPerMonth + " штук бутылок");
+
     }
 }
