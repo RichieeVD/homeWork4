@@ -87,5 +87,18 @@ public class Main {
         System.out.println("Вес спортзавтрака в граммах: " + totalWeightGrams);
         System.out.println("Вес спортзавтрака в килограммах: " + totalWeightKg);
 
+        //task 7
+
+        int targetWeightLossGrams = 7000;
+        int minDailyLoss = 250;
+        int maxDailyLoss = 500;
+        int daysAtMinLoss = targetWeightLossGrams / minDailyLoss;
+        int daysAtMaxLoss = targetWeightLossGrams / maxDailyLoss;
+        int averageDays = (daysAtMinLoss + daysAtMaxLoss) / 2;
+
+        System.out.println("Если терять по 250 грамм в день — потребуется " + daysAtMinLoss + " дней.");
+        System.out.println("Если терять по 500 грамм в день — потребуется " + daysAtMaxLoss + " дней.");
+        System.out.println("В среднем потребуется " + averageDays + " дней.");
+
     }
 }
