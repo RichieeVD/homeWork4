@@ -7,7 +7,7 @@ public class Main {
         float myFloat = 3.75f;
         double myDouble = 12.3456789;
 
-        System.out.println("Значение переменной myInt с типом int равно " + myInt);
+        System.out.println("Значение переменной myInt с типом int равно" + myInt);
         System.out.println("Значение переменной myByte с типом byte равно " + myByte);
         System.out.println("Значение переменной myShort с типом short равно " + myShort);
         System.out.println("Значение переменной myLong с типом long равно " + myLong);
