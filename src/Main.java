@@ -100,5 +100,24 @@ public class Main {
         System.out.println("Если терять по 500 грамм в день — потребуется " + daysAtMaxLoss + " дней.");
         System.out.println("В среднем потребуется " + averageDays + " дней.");
 
+        //task 8
+
+        double mashaSalary = 67760;
+        double denisSalary = 83690;
+        double kristinaSalary = 76230;
+        double mashaRaise = mashaSalary * 0.10;
+        double denisRaise = denisSalary * 0.10;
+        double kristinaRaise = kristinaSalary * 0.10;
+        double mashaNewSalary = mashaSalary + mashaRaise;
+        double denisNewSalary = denisSalary + denisRaise;
+        double kristinaNewSalary = kristinaSalary + kristinaRaise;
+        double mashaAnnualDiff = (mashaNewSalary - mashaSalary) * 12;
+        double denisAnnualDiff = (denisNewSalary - denisSalary) * 12;
+        double kristinaAnnualDiff = (kristinaNewSalary - kristinaSalary) * 12;
+
+        System.out.println("Маша теперь получает " + (int)mashaNewSalary + " рублей. Годовой доход вырос на " + (int)mashaAnnualDiff + " рублей.");
+        System.out.println("Денис теперь получает " + (int)denisNewSalary + " рублей. Годовой доход вырос на " + (int)denisAnnualDiff + " рублей.");
+        System.out.println("Кристина теперь получает " + (int)kristinaNewSalary + " рублей. Годовой доход вырос на " + (int)kristinaAnnualDiff + " рублей.");
+
     }
 }
