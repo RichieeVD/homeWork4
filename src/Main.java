@@ -58,5 +58,17 @@ public class Main {
         System.out.println("За 3 дня машина произвела " + bottlesIn3Days + " штук бутылок");
         System.out.println("За 1 месяц машина произвела " + bottlesPerMonth + " штук бутылок");
 
+        //task 5
+
+        int totalPaintCans = 120;
+        int whitePerClass = 2;
+        int brownPerClass = 4;
+        int paintPerClass = whitePerClass + brownPerClass;
+        int numberOfClasses = totalPaintCans / paintPerClass;
+        int totalWhite = numberOfClasses * whitePerClass;
+        int totalBrown = numberOfClasses * brownPerClass;
+
+        System.out.println("В школе, где " + numberOfClasses + " классов, нужно " + totalWhite + " банок белой краски и " + totalBrown + " банок коричневой краски");
+
     }
 }
